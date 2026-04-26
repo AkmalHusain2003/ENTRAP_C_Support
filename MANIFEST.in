@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+include pyproject.toml
+include setup.py
+
+recursive-include entrap/_c_src *.c *.h
+include entrap/_numba_core.pyx
+include entrap/_intrinsic_dim.pyx
+
+recursive-include entrap *.py
